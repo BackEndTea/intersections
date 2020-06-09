@@ -7,7 +7,7 @@
   
 ## Previous work
 
-The original intersectio types RFC was proposed by Levi Morrison here: https://wiki.php.net/rfc/intersection_types.
+The original intersection types RFC was proposed by Levi Morrison here: https://wiki.php.net/rfc/intersection_types.
 This RFC expands on that, heavily inspired by https://wiki.php.net/rfc/union_types_v2, by  Nikita Popov.
 This RFC largely follows the same format as the union types RFC
 
