@@ -277,15 +277,7 @@ var_dump($rt->allowsNull()); // true
 var_dump($rt->getTypes());   // [ReflectionType("int"), ReflectionIntersectionType("B&C")]
 var_dump($rt->getTypes()[1]->getTypes) // [ReflectionType("B"), ReflectionType("B")]
 var_dump((string) $rt); // "int|(B&C)"
- 
-function test3(): int|null {}
-$rt = (new ReflectionFunction('test3'))->getReturnType();
-var_dump(get_class($rt));    // "ReflectionNamedType"
-var_dump($rt->allowsNull()); // true
-var_dump($rt->getName());    // "int"
-var_dump((string) $rt);      // "?int"
 ```
-
 
 ## Backward Incompatible Changes
 This RFC does not contain any backwards incompatible changes. However, existing ReflectionType based code will have to be adjusted in order to support processing of code that uses intersection types. 
