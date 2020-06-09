@@ -4,6 +4,13 @@
   * Author: Gert de Pagter, backendtea@gmail.com
   * Status: Draft
   * First Published at: https://github.com/BackEndTea/intersections
+  
+## Previous work
+
+The original intersectio types RFC was proposed by Levi Morrison here: https://wiki.php.net/rfc/intersection_types.
+This RFC expands on that, heavily inspired by https://wiki.php.net/rfc/union_types_v2, by  Nikita Popov.
+This RFC largely follows the same format as the union types RFC
+
 
 ## Introduction
 
